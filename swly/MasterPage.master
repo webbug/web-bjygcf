@@ -1,0 +1,437 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="swly_MasterPage" %>
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"  style="font-family:Microsoft JhengHei">
+<head runat="server">
+    <title>北京一格财富投资咨询有限公司-旅游事业部</title>
+    <meta name="keywords" content="bjygcf.com,www.bjygcf.com,一格理财,一格旅游,金融投资,融资,信托,证券基金,有限合伙,三方理财,信用卡,无抵押贷款,人寿保险,财产保险,国内外旅游,酒店,机票,一格财富" />
+    <meta name="description" content=" 北京一格财富投资咨询有限公司是一家以提供第三方服务为主的专业咨询机构。公司目前开展的主要业务包括个人（家庭）投资理财、企业金融和休闲旅游等方面的第三方服务。 " />
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/basic_travl2.css" />
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/travl.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <link rel="icon" href="images/favicon.ico" mce_href="images/favicon.ico" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="position: relative;background-image:url(images/bbg.png)" >  
+ 
+        <div id="top_heng" style="width:100%;height:31px;border-bottom:1px solid #ececec;position:absolute;top:0;background-image:url(images/header_bg.png);">
+        </div>
+ 
+        <script>
+            jQuery(window).bind('scroll', function () {
+                jQuery('#top_heng').css({
+                    width: getInner().width + getScroll().left - 18
+                });
+            });
+            jQuery(window).resize(function () {
+                jQuery('#top_heng').css({
+                    width: getInner().width + getScroll().left - 18
+                });
+            });
+        </script>
+          <a href="http://www.bjygcf.com/jrlc/jr_index.aspx"><div title="点击我!进入金融理财页...." id="rukou2" style="position:absolute;left:0; top:375px;z-index:999999999999999;width:46px;height:60px;background-image:url(images/header-panesl-bg2.png);border-top-right-radius:10px;border-bottom-right-radius:10px;">
+        <h1 style="color:#fff;text-align:center;line-height:60px;cursor:pointer;"><span style="display:none;margin-left:-20px;">金融理财<img style="margin-left:10px;" src="images/jian_jj.png" /></span><img class="ionc" style="margin-left:10px;line-height:60px;position:absolute;right:10px;top:15px;" src="images/tukou_2.png"></h1>
+    </div></a>  
+       <a href="http://www.bjygcf.com/swly/ly_index.aspx"><div title="点击我!进入商务休闲页...." id="rukou" style="position:absolute;left:0; top:295px;z-index:999999999999999;width:46px;height:60px;background-image:url(images/header-panesl-bg2.png);border-top-right-radius:10px;border-bottom-right-radius:10px;">
+        <h1 style="color:#fff;text-align:center;line-height:60px;cursor:pointer;"><span style="display:none;margin-left:-20px;">商务旅游<img style="margin-left:10px;" src="images/jian_jj.png" /></span><img class="ionc" style="margin-left:10px;line-height:60px;position:absolute;right:10px;top:15px;" src="images/tukou_1.png"></h1>
+    </div></a>
+       
+    <script>
+        jQuery('#rukou').hover(function () {
+            jQuery('#rukou span').show();
+            jQuery('#rukou h1 .ionc').fadeOut('fast');
+            jQuery(this).stop().animate({
+                width: '230px'
+            }, 100, 'linear').animate({
+                width: '210px'
+            }, 100, 'linear').animate({
+                width: '220px'
+            }, 100, 'linear');
+        }, function () {
+            jQuery('#rukou span').hide();
+            jQuery('#rukou h1 .ionc').fadeIn('fast');
+            jQuery(this).stop().animate({
+                width: '40px'
+            }, 100, 'linear').animate({
+                width: '52px'
+            }, 100, 'linear').animate({
+                width: '46px'
+            }, 100, 'linear');
+        });
+        jQuery('#rukou2').hover(function () {
+            jQuery('#rukou2 span').show();
+            jQuery('#rukou2 h1 .ionc').fadeOut('fast');
+            jQuery(this).stop().animate({
+                width: '230px'
+            }, 100, 'linear').animate({
+                width: '210px'
+            }, 100, 'linear').animate({
+                width: '220px'
+            }, 100, 'linear');
+        }, function () {
+            jQuery('#rukou2 span').hide();
+            jQuery('#rukou2 h1 .ionc').fadeIn('fast');
+            jQuery(this).stop().animate({
+                width: '40px'
+            }, 100, 'linear').animate({
+                width: '52px'
+            }, 100, 'linear').animate({
+                width: '46px'
+            }, 100, 'linear');
+        });
+        jQuery(window).bind('scroll', function () {
+            jQuery('#rukou').css({
+                top: (295 + getScroll().top) + 'px'
+            });
+            jQuery('#rukou2').css({
+                top: (375 + getScroll().top) + 'px'
+            });
+        });
+    </script>
+    <div id="share">
+        <h2>
+            一格客服中心:</h2>
+        <ul>
+            <li class="ii1"><a href="###" class="a biao">业务热线:</a></li>
+            <li class="ii2"><a href="###" class="b">010-52746846</a></li>
+            <li class="ii3"><a href="###" class="c biao">公司热线:</a></li>
+            <li class="ii4"><a href="###" class="d">010-53689251</a></li>
+            <li class="ii5"><a href="###" class="e biao">招聘热线:</a></li>
+            <li class="ii6"><a href="###" class="f">010-53600170</a></li>
+            <li class="ii7"><a href="###" class="g biao">电子邮件:</a></li>
+            <li class="ii8"><a href="###" class="h">bjygcf@bjgycf.com</a></li>
+            <li class="ii9"><a href="###" class="i biao">ＱＱ客服:</a></li>
+            <li class="ii10"><a href="http://wpa.qq.com/msgrd?v=3&uin=2713302485&site=qq&menu=yes" target="_blank"
+                class="j">点击交谈</a></li>
+            <li class="ii11"><a href="###" class="k biao">网站客服:</a></li>
+            <li class="ii12"><a onclick="javascript:mpnchat.util.openChat();return false;" href="javascript:void(0)"
+                title="在线咨询" style="cursor: hand;" class="l">点击交谈</a></li>
+            <li class="ii13"><a href="###" class="m biao">公司官网:</a></li>
+            <li class="ii14"><a href="http://www.bjygcf.com" class="n" style="background: none">www.bjygcf.com</a></li>
+            <li class="ii15"><a href="###" class="o biao">关注微信</a></li>
+            <li class="ii16"><a href="###" class="p" style="background: none">yigecaifu</a></li>
+        </ul>
+        <div class="share_footer">
+            <span></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://stat.mpnco.com.cn/stat/a.ashx?s=js7M8jaU~oKlSvhyhDpDWganVzWwNOzBVJT0P6J5IYHFW6ZPXbkLQRRRC0mTnG~s&c=js7M8jaU~oKlSvhyhDpDWganVzWwNOzBVJT0P6J5IYHFW6ZPXbkLQRRRC0mTnG~s"></script>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <div id="hea">
+                <div class="bao">
+                    <div id="head">
+                        <div class="head_up">
+                          <a href="#head"><div id="hui" style="display:none;color:#7c7c7c;text-align:center;position:absolute;right:-40px;top:500px;width:20px;height:80px;border:1px solid #ccc;bacbground-color:#fff;border-radius:5px;">▲回顶部</div></a>           
+            <script>
+                var iner = getInner().height - 110;
+                jQuery(window).bind('scroll', function () {
+                    jQuery('#hui').show().css({
+                        top: iner + getScroll().top - 80
+                    });
+                    if (getScroll().top == 0) {
+                        jQuery('#hui').hide();
+                    }
+                });
+                jQuery('#hui').hover(function () {
+                    jQuery(this).css({
+                        backgroundColor: '#fff0c0',
+                        color: '#e4393c'
+                    });
+                }, function () {
+                    jQuery(this).css({
+                        backgroundColor: '#fff',
+                        color: '#7c7c7c'
+                    });
+                });
+            </script>
+                           <span><a href="../jrlc/jr_index.aspx" style="color:#ff6428;font-weight:bold;"><button style="cursor:pointer;height:21px;color:#ff6428;" type="button">网站首页</button></a></span> 
+                           <span><a href="../jrlc/jr_index.aspx" style="color:#ff6428;font-weight:bold;"><button style="cursor:pointer;height:21px;color:#ff6428;" type="button">金融理财</button></a></span> 
+                           <span><a href="../swly/ly_index.aspx" style="color:#ff6428;font-weight:bold;"><button style="cursor:pointer;height:21px;color:#ff6428;" type="button">商务旅游</button></a></span> 
+                           <span><a href="../about/ab_index.aspx" style="color:#ff6428;font-weight:bold;"><button style="cursor:pointer;height:21px;color:#ff6428;" type="button">关于一格</button></a></span> 
+                           <script>
+                               jQuery('#head .head_up span a').hover(function () {
+                                   jQuery(this).css({
+                                       fontSize: '16px'
+                                   });
+                               }, function () {
+                                   jQuery(this).css({
+                                       fontSize: '15px'
+                                   });
+                               });
+                           </script>
+
+                            <ul class="head_tishi">
+                                <li class="l_b">微信我们</li>
+                                <li class="l_a">QQ我们</li>
+                                <li class="l_c">关注我们</li>
+                            </ul>
+                            <img class="fdi_1" src="images/weixin_bg.png" />
+                            <img class="fdi_2" src="images/tengxun_bg.png" />
+                            <img class="fdi_3" src="images/xinlang_bg.png" />
+                        </div>
+                        <div class="head_down">
+                            <div class="hd_left">
+                                <a href="http://www.bjygcf.com">
+                                    <img id="logo" src="images/yige_logo.png" style="border: none;" /></a>
+                            </div>
+                            <div class="hd_right">
+                                <div class="hrr">
+                                    <span>一格搜索:</span></div>
+                                <div class="hrz">
+                                    <form id="hsou">
+                                    <input id="hrz_sou" type="text" runat="server" name="text_sou" value="请输入您需要的旅游线路....."
+                                        clientidmode="Static" style="line-height:32px;border-radius:5px;" />
+                                    <asp:Button ID="hrz_but" runat="server" Text="" ClientIDMode="Static" OnClick="hrz_but_Click" style="border-radius:5px;" />
+                                    </form>
+                                    <asp:ImageButton ID="fdj" runat="server" ImageUrl="images/fdj_bg.png" ClientIDMode="Static"
+                                        OnClick="hrz_but_Click" />
+                                    <div id="tab">
+                                      <span id="diyu">按地域>></span>
+                                      <span id="jiage">按价格>></span>
+                                    </div>
+                                    <div id="in_kua" class="nwg">
+                                        <em>
+                                            <asp:Repeater ID="Repeater2" runat="server" DataSourceID="SqlDataSource2">
+                                                <ItemTemplate>
+                                                    <span><a href="#" onclick="hq('<%#Eval("dq") %>')">
+                                                        <%#Eval("dq") %></a></span>
+                                                </ItemTemplate>
+                                            </asp:Repeater>
+                                        </em>
+                                        <script type="text/javascript">
+                                            function hq(aa) {
+                                                document.getElementById("hrz_sou").value = aa;                                              
+                                            }
+                                        </script>
+                                    </div>
+                                      <div id="in_kua2" class="nwg">
+                                        <em>
+                                        <span><a style="cursor:pointer;" onclick="hy('0-1000')">1000以下(元)</a></span>
+                                        <span><a style="cursor:pointer;" onclick="hy('1000-2000')">1000-2000(元)</a></span>
+                                         <span><a style="cursor:pointer;" onclick="hy('2000-3000')">2000-3000(元)</a></span>
+                                          <span><a style="cursor:pointer;" onclick="hy('3000-4000')">3000-4000(元)</a></span>
+                                           <span><a style="cursor:pointer;" onclick="hy('4000-5000')">4000-5000(元)</a></span>
+                                            <span><a style="cursor:pointer;" onclick="hy('5000-6000')">5000-6000(元)</a></span>
+                                            <span><a style="cursor:pointer;" onclick="hy('6000-7000')">6000-7000(元)</a></span>
+                                            <span><a style="cursor:pointer;" onclick="hy('7000-8000')">7000-8000(元)</a></span>
+                                             <span><a style="cursor:pointer;" onclick="hy('8000-以上')">8000以上(元)</a></span>
+                                        </em>                 
+                                        <script type="text/javascript">
+                                            function hy(aa) {                                             
+                                                window.location.href = "ly_sou.aspx?ssjgtxt=" + aa;
+                                            }
+                                        </script>
+                                    </div>
+                                    <div id="remen">
+                                        <ul>
+                                            <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+                                                <ItemTemplate>
+                                                    <li><a href="ly_sou.aspx?sstxt=<%#Eval("dq") %>">
+                                                        <%#Eval("dq") %></a></li>
+                                                </ItemTemplate>
+                                            </asp:Repeater>
+                                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+                                                ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT DISTINCT [showid], [dq] FROM [bjygcf_lyxl] ORDER BY [showid] DESC limit 0,4">
+                                            </asp:SqlDataSource>
+                                            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+                                                ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT DISTINCT [showid], [dq] FROM [bjygcf_lyxl] ORDER BY [showid] DESC">
+                                            </asp:SqlDataSource>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="hrl">
+                                    <img src="images/kimi_img.gif" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nav">
+                        <div class="nav_l">
+                            <p class="nav_l_p">
+                                <img src="images/nav_lb_bg.png" />机票预订</p>
+                            <p class="nav_l_p2">
+                                <img src="images/nav_lb_bg2.png" />
+                            酒店预订<p />
+                            <div id="ji">
+                                <form action="injdjp.aspx?lx=jp" method="post" class="jj">
+                                <em class="jg jg1">联系人:<input class="jb jb1" name="plxr" type="text" /><br />
+                                </em><em class="jg jg2">目的地:<input class="jb jb2" name="pmdd" type="text" /><br />
+                                </em><em class="jg jg3">电 话:<input class="jb jb3" name="pdh" type="text" /><br />
+                                </em><em class="jg jg4">数 量:<input class="jb jb4" name="psl" type="text" /><br />
+                                </em><em class="jg jg5">日 期:<input class="jb jb5 hu" name="prq" type="text" /><br />
+                                </em>
+                                <input id="send" class="jg j6 jg8" type="submit" value="提交" />
+                                <input id="res" class="jg jg6 jg7" type="reset" value="重置" />
+                                </form>
+                            </div>
+                            <div id="lv">
+                                <form action="injdjp.aspx?lx=jd" method="post" class="jju">
+                                <em class="jg jg1">联系人:<input class="jb jb1" type="text" name="dlxr" /><br />
+                                </em><em class="jg jg2">目的地:<input class="jb jb2" type="text" name="dmdd" /><br />
+                                </em><em class="jg jg3">电 话:<input class="jb jb3" type="text" name="ddh" /><br />
+                                </em><em class="jg jg4">数 量:<input class="jb jb4" type="text" name="dsl" /><br />
+                                </em><em class="jg jg5">日 期:<input class="jb jb5 hu" type="text" name="drq" /><br />
+                                </em>
+                                <input id="send2" class="jg j6 jg8" type="submit" value="提交" /><input id="res2" class="jg jg6 jg7"
+                                    type="reset" value="重置" />
+                                </form>
+                            </div>
+                        </div>
+                        <div id="nav_r">
+                            <div id="navr_hua">
+                                <div id="navd_u">
+                                    <ul class="navd_uu">
+                                        <li>首页</li>
+                                        <li>旅游线路</li>
+                                        <li>会员优享</li>
+                                        <li>旅游攻略</li>
+                                        <li>留言反馈</li>
+                                        <li>金融理财</li>
+                                    </ul>
+                                </div>
+                                <div id="dong">
+                                    <div id="dbl">
+                                        <ul class="dong_uu">
+                                            <li>首页</li>
+                                            <li>旅游线路</li>
+                                            <li>会员优享</li>
+                                            <li>旅游攻略</li>
+                                            <li>留言反馈</li>
+                                            <li>金融理财</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="kong">
+                                    <ul class="kong_uu">
+                                        <li><a class="a" href="ly_index.aspx"></a></li>
+                                        <li><a class="b" href="ly_gd.aspx"></a></li>
+                                        <li><a class="c" href="ly_hyk.aspx"></a></li>
+                                        <li><a class="d" href="ly_glv.aspx"></a></li>
+                                        <li id="xst"><a class="e" href="ly_liu.aspx"></a></li>
+                                        <li><a class="f" href="http://www.bjygcf.com/jrlc/jr_index.aspx"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="na_bg">
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            <div id="footer_bg">
+                <div class="foot_ju">
+                    <div id="footer">
+                        <div class="foot_top">
+                            <div class="foot_top_l">
+                                <img src="images/footer_bg.png" />
+                            </div>
+                            <div class="foot_top_r">
+                                <ul class="foot_top_ru">
+                                    <h4>
+                                        金融服务</h4>
+                                    <a href="../jrlc/jr_index.aspx" title="理财产品">
+                                        <li>理财产品</li></a> <a href="../jrlc/jr_bx.aspx" title="保险超市">
+                                            <li>保险超市</li></a> <a href="../jrlc/jr_zx.aspx" title="金融资讯">
+                                                <li>金融资讯</li></a> <a href="../jrlc/jr_zhao.aspx" title="招商加盟">
+                                                    <li>招商加盟</li>
+                                                </a>
+                                </ul>
+                                <ul class="foot_top_ru">
+                                    <h4>
+                                        商务旅游</h4>
+                                    <a href="ly_gd.aspx" title="精品旅游">
+                                        <li>精品旅游</li></a> <a href="ly_hyk.aspx" title="会员优享">
+                                            <li>会员优享</li></a> <a href="ly_glv.aspx" title="旅游攻略">
+                                                <li>旅游攻略</li></a> <a href="ly_liu.aspx" title="留言反馈">
+                                                    <li>留言反馈</li>
+                                                </a>
+                                </ul>
+                                <ul class="foot_top_ru">
+                                    <h4>
+                                        关于一格</h4>
+                                    <a href="../about/ab_about.aspx?about=1" title="公司介绍">
+                                        <li>公司介绍</li></a> <a href="../about/wzmap.aspx" title="网站地图">
+                                            <li>网站地图</li></a> <a href="../about/ab_rlzy.aspx" title="人才招聘">
+                                                <li>人才招聘</li></a> <a href="../about/ab_about.aspx?about=5" title="联系我们">
+                                                    <li>联系我们</li>
+                                                </a>
+                                </ul>
+                                <ul class="foot_top_ru foot_top_ru4">
+                                    <h4>
+                                        关注我们</h4>
+                                    <li>别拒一格 财富一生</li>
+                                    <img title="一格二维码" src="images/erwei2.png" />
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="foot_bottom">
+                            <span class="gty3">版权所有 © 北京一格财富投资咨询有限公司 未经许可不得复制、转载或摘编，违者必究!</span> <span class="gty">
+                                Copyright © A wealth of Beijing Cci Capital LTD. All Rights Reserved</span>
+                            <span class="gty2">ICP许可证号 京ICP备13030029号-1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <script type="text/javascript">
+        jQuery('#hrz_sou').focus(function () {
+            jQuery('#tab').show();
+            jQuery(this).val('');
+            jQuery('#in_kua').slideDown(500);
+            jQuery('#in_kua').css({
+                zIndex: 8
+            });
+            jQuery('#in_kua2').hide();
+        });
+        jQuery('#hrz_sou').blur(function () {
+
+            setTimeout(function () {
+                jQuery('#tab').hide();
+             },500);  
+            jQuery('#in_kua').slideUp(500);
+            jQuery('#in_kua2').slideUp(500);
+        });
+        jQuery('#diyu').mouseover(function(){
+           jQuery('#in_kua').css({           
+               zIndex:8
+           }).show();
+           jQuery('#in_kua2').css({
+               zIndex: 6
+           }).hide();
+           
+        });
+        jQuery('#jiage').mouseover(function(){
+           jQuery('#in_kua2').show().css({
+               zIndex: 8
+           }).show();
+           jQuery('#in_kua').css({           
+               zIndex:6
+           }).hide();
+
+       });
+    </script>
+        <div id="share_gai" position:relative;>
+         <img style="margin-top:60px;margin-left:1px;filter:alpha(opacity=100);opacity:1;float:left" src="images/share.png" />
+        <div style="position:absolute;right:0;top:0;width:300px;height:280px;float:right;display:inline;background-color:#fff;opacity:0;filter:alpha(opacity=0);">
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=2713302485&site=qq&menu=yes" title="QQ咨询" target="_blank"
+                class="j"><h3 style="position:absolute;top:150px;background-color:Green;z-index:666;cursor:pointer;opacity:0;filter:alpha(opacity=0);"></h3></a>
+         <a onclick="javascript:mpnchat.util.openChat();return false;" href="javascript:void(0)"
+                title="在线咨询" style="cursor: hand;" class="l"><h3 style="position:absolute;top:180px;z-index:666;background-color:pink;cursor:pointer;opacity:0;filter:alpha(opacity=0);"></h3></a>
+        </div>   
+      </div>
+</body>
+</html>

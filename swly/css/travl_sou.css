@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    outline: none;
+}
+#qieh{
+    width: 825px;
+    margin-top: 20px;
+    padding-left: 200px;
+}
+#qieh span{
+    font-size: 13px;
+    float: left;
+    border: 1px solid #9f9f9f;
+    background-color: #eaeaea;
+    display: block;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+#sou_xq{
+    width: 1100px;
+    height: auto;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+#sou_xq .sou_xq_l .sou_xq_l_h h3{
+    height: 30px;
+    line-height: 30px;
+    background: #007100;
+    color: #fff;
+    padding-left: 15px;
+}
+#sou_xq .sou_xq_l{
+    width: 273px;
+    height:auto;
+    float: left;
+}
+#sou_xq .sou_xq_l ul{
+    border: 1px solid #ccc;
+    height: auto;
+}
+#sou_xq .sou_xq_l ul li{
+    height: 280px;
+    border-bottom: 1px dashed #ccc;
+}
+#sou_xq .sou_xq_l ul li#doc{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bolder;
+    border: none;
+    padding-top: 30px;
+}
+#sou_xq .sou_xq_l ul li.yyu{
+    border-top: none;
+}
+#sou_xq .sou_xq_l ul li a{
+    blr:expression(this.onFocus=this.blur());
+    outline:none;
+}
+#sou_xq .sou_xq_l ul li dl dd img{
+    margin-left:12px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+#sou_xq .sou_xq_l ul li dl dt{
+    font-size: 14px;
+    color: #212121;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+#sou_xq .sou_xq_l ul li dl dt:hover{
+    text-decoration: underline;
+}
+#sou_xq .sou_xq_l ul li span{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: 273px;
+    margin-top: 28px;
+    text-align: center;
+    color: #ff581c;
+}
+#sou_xq .sou_xq_r{
+    float: right;
+    width: 805px;
+    padding-left: 20px;
+    height: auto;
+}
+#sou_xq .sou_xq_r .lie{
+    width: 805px;
+    height: 135px;
+    border-bottom:1px dashed #ccc ;
+}
+#sou_xq .sou_xq_r .lie .lie_l {
+
+    padding-top: 26px;
+    width: 644px;
+    height: 109px;
+}
+#sou_xq .sou_xq_r .lie .lie_l span{
+    margin-left: 18px;
+    background-color:#abcdef ;
+}
+#sou_xq .sou_xq_r .lie .lie_l dl dd img{
+    float: left;
+}
+#sou_xq .sou_xq_r .lie .lie_l dl dt{
+    float: left;
+    color: #979797;
+    height: 13px;
+    line-height: 23px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+#sou_xq .sou_xq_r .lie .lie_l dl dt a{
+    font-style:normal ;
+    color: #1b2cff;
+    font-size: 16px;
+    font-weight: bold;
+}
+#sou_xq .sou_xq_r .lie .lie_l dl dt a:hover{
+    text-decoration: underline;
+}
+#sou_xq .sou_xq_r .lie .lie_r{
+    padding-top: 35px;
+    padding-left: 46px;
+    width: 115px;
+    height: 100px;
+    float: right;
+    margin-top: -135px;
+}
+#sou_xq .sou_xq_r .lie .lie_r  em{
+    display: block;
+    float: left;
+    font-style: normal;
+    color: #ff631a;
+}
+#sou_xq .sou_xq_r .lie .lie_r  span{
+    float: left;
+    display: block;
+    color: #fff;
+    background-color:  #ff631a;
+}
+
+
+/*
+∑÷“≥∞¥≈•
+*/
+.pagination {
+                text-align: right;
+                padding: 20px 0 5px 0;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                }
+.pagination a {
+                margin: 0 5px 0 0;
+                padding: 3px 6px;
+                cursor:pointer;
+                }
+.pagination a.number {
+				border: 1px solid #ddd;
+				cursor:pointer;
+                }
+
+.pagination a.current {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                }
+.pagination span.current {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                 margin: 0 5px 0 0;
+                padding: 3px 6px;
+                }
+.fyccurrent {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                }
+.pagination a.current:hover {
+				text-decoration: underline;
+                }

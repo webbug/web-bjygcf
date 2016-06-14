@@ -1,0 +1,281 @@
+﻿#tz{
+    width: 1100px;
+    height: 460px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#tz .tz_ban{
+    width: 1100px;
+    height: 40px;
+    background-image: url(../images/indexList_bg.png);
+}
+#tz .tz_ban p{
+    display: block;
+   height: 40px;
+    line-height: 40px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    width: 135px;
+    background-color: #ceac5f;
+    margin-left: 10px;
+    font-size: 20px;
+    float: left;
+    margin-right: 30px;
+}
+#tz .tz_ban span{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #4b4b4b;
+    display: block;
+    margin-right: 30px;
+}
+#tz .tz_ban em{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f00000;
+    float: left;
+}
+#tz .tz_ban strong{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-right: 30px;
+    color: #f00000;
+    cursor: pointer;
+}
+#tz .tz_ban strong:hover{
+    color: #f00000;
+}
+#tz ul li{
+    cursor: pointer;
+}
+#tz ul li:hover{
+    background-color: #fff4dc;
+    font-size: 17px;
+}
+#tz ul li.xm{
+    background-color: #ceac5f;
+    position: relative;
+}
+#tz ul li.xm span{
+    position: absolute;
+  display: block;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    height: 39px;
+    line-height: 39px;
+}
+#tz ul li.xm .cam1{
+   left: 30px;
+}
+#tz ul li.xm .cam2{
+    left: 340px;
+}
+#tz ul li.xm .cam3{
+    left: 470px;
+}
+#tz ul li.xm .cam4{
+    left: 565px;
+}
+#tz ul li.xm .cam5{
+    left: 670px;
+}
+#tz ul li.xm .cam6{
+    left: 950px;
+}
+#tz ul li.xm .cam7{
+    left: 800px;
+}
+#tz ul li{
+   width: 1068px;
+    height: 37px;
+    border: 1px solid #ccc;
+    border-top:none ;
+   line-height: 37px;
+    padding-left: 30px;
+    color: #646464;
+    font-size: 14px;
+}
+#tz ul li .mm{
+    display: inline-block;
+}
+#tz ul li .nm1{
+    width: 300px;
+    cursor: pointer;
+    color: #646464;
+    font-size: 14px;
+    font-weight: bold;
+}
+#tz ul li .nm1:hover{
+    color: #d86639;
+}
+#tz ul li .nm2{
+    width: 150px;
+    color: red;
+}
+#tz ul li .nm3{
+    width: 80px;
+}
+#tz ul li .nm4{
+    width: 100px;
+}#tz ul li .nm5{
+     width: 135px;
+ }#tz ul li .nm6{
+      width: 100px;
+      color:White;
+      font-weight:bold;
+      text-align:center;
+      background-color:#ff6600;
+  }
+#tz ul li .nm7{
+      width: 140px;
+  }
+.rexiao
+{
+    color:Red;
+    font-weight:bold;
+    }
+#tz ul .ji{
+    background-color: #fefefe;
+}
+#tz ul .ou{
+    background-color: #f0f0f0;
+}
+ul.content li.community {
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 484px;
+}
+ul.content li.about {
+    float: right;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 501px;
+}
+.main .header {
+    border-bottom: 1px solid #F4F4F4;
+    clear: both;
+    height: 38px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.main .main_title {
+    color: #333333;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+}
+.main .header .line {
+    background-position: -484px -204px;
+    bottom: 0;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 80px;
+}
+li.about .focusUs {
+    clear: both;
+    height: 97px;
+    margin-bottom: 33px;
+}
+.hotline .title {
+    background: url("../../images/focus_line.png") no-repeat scroll 1px 0 #EFEFEF;
+    color: #4CB7EA;
+    margin-right: 1px;
+}
+.hotline .number {
+    color: #666666;
+}
+.hotline .title, .hotline .number {
+    background-color: #EFEFEF;
+    font-size: 24px;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    width: 240px;
+}
+li.about .focusUs {
+    clear: both;
+    height: 97px;
+    margin-bottom: 22px;
+}
+.focusUs .codeFocus, .focusUs .weiboFocus, .hotline .title, .hotline .number {
+    float: left;
+}
+.focusUs .codeFocus, .focusUs .weiboFocus {
+    margin-top: 10px;
+}
+.focusUs .codeFocus {
+    clear: both;
+    height: 100%;
+    margin-right: 39px;
+    width: 278px;
+}
+.focusUs .codeFocus .code_img {
+    height: 77px;
+    width: 77px;
+}
+.focusUs .codeFocus .code_wrap {
+    border: 1px solid #EFEFEF;
+    float: left;
+    margin-right: 10px;
+    padding: 15px 4px 3px;
+}
+.codeFocus .codeInfo {
+    float: left;
+    width: 167px;
+}
+.codeFocus .codeInfo p {
+    color: #4CB7EA;
+    margin-bottom: 7px;
+}
+.codeFocus .codeInfo ul {
+    color: #999999;
+    font-size: 12px;
+    list-style: disc inside none;
+}
+.codeFocus .codeInfo ul li {
+    height: 24px;
+    margin-top: 0;
+    overflow: hidden;
+}
+.focusUs .weiboFocus {
+    color: #999999;
+    font-size: 12px;
+    height: 100%;
+    line-height: 20px;
+    width: 160px;
+}
+.focusUs .weiboFocus div span {
+    float: left;
+    height: 46px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 46px;
+}
+.focusUs .weiboFocus .shadu_img {
+    background-position: -561px -44px;
+}
+.focusUs .weiboFocus .weishi_img {
+    background-position: -561px 0;
+}
+.focusUs .weiboFocus div.weishi {
+    height: 44px;
+    margin-bottom: 10px;
+}
+li.community .title {
+    overflow: hidden;
+    text-align: left;
+    width: 300px;
+}

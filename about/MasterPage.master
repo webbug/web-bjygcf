@@ -1,0 +1,174 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>关于我们—北京一格财富投资咨询有限公司</title>
+    <meta name="keywords" content="bjygcf.com,www.bjygcf.com,一格理财,一格旅游,金融投资,融资,信托,证券基金,有限合伙,三方理财,信用卡,无抵押贷款,人寿保险,财产保险,国内外旅游,酒店,机票,一格财富" />
+    <meta name="description" content=" 北京一格财富投资咨询有限公司是一家以提供第三方服务为主的专业咨询机构。公司目前开展的主要业务包括个人（家庭）投资理财、企业金融和休闲旅游等方面的第三方服务。 " />
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <link rel="icon" href="images/favicon.ico" mce_href="images/favicon.ico" type="image/x-icon"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="position:relative; overflow-x:hidden;">
+
+    <form id="form1" runat="server">
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <!--头部-->
+	        <div class="big_logo">
+                <ul>
+                    <li><a href="http://www.bjygcf.com"><span class="logo"></span></a></li>
+                    <li><span class="lgfw">
+                        <ul>
+                            <ol class="fw_jt">
+                            </ol>
+                            <ol class="fw_kefu">
+                                <a href="">服务热线:010-53600170</a></ol>
+                        </ul>
+                        </span></li>
+                </ul>
+            </div>
+   	<!--导航-->
+            <div class="top_daohang" >
+                <ul id="jsddm">
+                    <li class="top_dh"><a href="../index.aspx">首页</a></li>
+                    <li class="top_dh"><a href="../jrlc/jr_index.aspx">金融理财</a></li>
+                    <li class="top_dh"><a href="../swly/ly_index.aspx">旅游休闲</a></li>
+                    <li class="top_dh"><a href="ab_news.aspx">新闻中心</a>
+                        <ul>
+                            <li><a href="ab_news.aspx?cate=1">公司动态</a></li>
+                            <li><a href="ab_news.aspx?cate=2">行业新闻</a></li>
+                            <li><a href="ab_news.aspx?cate=3">公告通知</a></li>
+                        </ul>
+                    </li>
+                    <li class="top_dh"><a href="ab_rlzy.aspx">人力资源</a>
+                        <ul>
+                            <li><a href="ab_rlzy.aspx?rlzy=1">人才理念</a></li>
+                            <li><a href="ab_rlzy.aspx?rlzy=2">社会招聘</a></li>
+                            <li><a href="ab_rlzy.aspx?rlzy=3">校园招聘</a></li>
+                        </ul>
+                    </li>
+                    <li class="top_dh"><a href="ab_about.aspx">关于一格</a>
+                        <ul>
+                            <li><a href="ab_about.aspx?about=1">公司简介</a></li>
+                            <li><a href="ab_about.aspx?about=2">企业文化</a></li>
+                            <li><a href="ab_about.aspx?about=3">组织架构</a></li>
+                            <li><a href="ab_about.aspx?about=4">合作伙伴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="big_wrapper">
+	
+                <!--轮换图调用-->
+                <!--<include file="Public:luenhuan"/>-->
+                <div class="top_luhuan">
+                    <div id="banner">
+                        <ul class="bxslider1">
+                            <li>
+                                <img src="images/1.png" alt="" /></li>
+                            <li>
+                                <img src="images/2.png" alt="" /></li>
+                            <li>
+                                <img src="images/3.png" alt="" /></li>
+                            <li>
+                                <img src="images/4.png" alt="" /></li>
+                            <li>
+                                <img src="images/5.png" alt="" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+         <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+             <div id="big_wrapper1">
+                 <div class="Under">
+                     <ul>
+                         <li class="Ur_dizhi">版权所有 © 北京一格财富投资咨询有限公司 未经许可不得复制、转载或摘编，违者必究!</li>
+                         <li class="Ur_caidan">
+                             <div class="Ur_cd">
+                                 <ul>
+                                     <li><a href="ab_rlzy.aspx">人才招聘</a></li>
+                                     <li class="Ur_cdA"><a href="wzmap.aspx">网站地图</a></li>
+                                     <li class="Ur_cdA"><a href="ab_about.aspx?about=4">合作伙伴</a></li>
+                                     <li class="Ur_cdA"><a href="ab_about.aspx?about=5">联系我们</a></li>
+                                 </ul>
+                             </div>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="Under_B">
+                     <ul>
+                         <li class="BACDE">ICP许可证号 京ICP备13030029号-1 版权所有</li>
+                         <li class="BAPPP">技术支持&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank">北京一格财富信息技术部</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+        </asp:ContentPlaceHolder>
+        <script type="text/javascript">
+            var timeout = 500;
+            var closetimer = 0;
+            var ddmenuitem = 0;
+
+            function jsddm_open() {
+                jsddm_canceltimer();
+                jsddm_close();
+                ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+
+            }
+
+            function jsddm_close() {
+                if (ddmenuitem) ddmenuitem.css('visibility', 'hidden');
+            }
+
+            function jsddm_timer() {
+                closetimer = window.setTimeout(jsddm_close, timeout);
+
+            }
+
+            function jsddm_canceltimer() {
+                if (closetimer) {
+                    window.clearTimeout(closetimer);
+                    closetimer = null;
+                } 
+            }
+
+            $(document).ready(function () {
+                $('#jsddm > li').bind('mouseover', jsddm_open);
+                $('#jsddm > li').bind('mouseout', jsddm_timer);
+            });
+
+            document.onclick = jsddm_close;
+         </script>
+        <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        //轮播
+        $('.bxslider1').bxSlider({
+        auto: true,
+        infiniteLoop: true,
+        hideControlOnEnd: true
+    });
+        </script>
+    </div>
+    
+    </form>
+    <script type="text/javascript" src="http://stat.mpnco.com.cn/stat/a.ashx?s=js7M8jaU~oKlSvhyhDpDWganVzWwNOzBVJT0P6J5IYHFW6ZPXbkLQRRRC0mTnG~s&c=js7M8jaU~oKlSvhyhDpDWganVzWwNOzBVJT0P6J5IYHFW6ZPXbkLQRRRC0mTnG~s"></script>
+    
+</body>
+</html>

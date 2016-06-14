@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    blr:expression(this.onFocus=this.blur());
+}
+a{
+    text-decoration: none;
+    outline: none;
+    blr:expression(this.onFocus=this.blur());
+}
+li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    outline: none;
+    border: none;
+}
+#gold_bx_body{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+#gold_bx_body .bx_banner{
+    margin-bottom: 25px;
+}
+#gold_bx_body .gold_bx_bodyl{
+    float: left;
+    width: 800px;
+    height: auto;
+}
+#gold_bx_body .gold_bx_bodyl h1{
+    color: #868686;
+    height:101px;
+    line-height:101px;
+    font-size:60px;
+}
+#gold_bx_body .gold_bx_bodyl h2{
+    width: 800px;
+    height: 40px;
+    line-height: 40px;
+    color: #1a3aff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#gold_bx_body .gold_bx_bodyl h2:hover{
+    text-decoration: underline;
+}
+#gold_bx_body .gold_bx_bodyl span{
+    display: block;
+    width: 764px;
+    height: 200px;
+    background-color: #fff8df;
+    padding: 15px;
+
+    cursor: pointer;
+}
+#gold_bx_body .gold_bx_bodyl span img{
+    width: 764px;
+    height: 200px;
+    float: left;
+}
+#gold_bx_body .gold_bx_bodyl span em{
+    float: right;
+    display: block;
+    width: 560px;
+    height: 185px;
+    font-style: normal;
+    line-height: 30px;
+    text-indent: 30px;
+    color: #878787;
+}
+#gold_bx_body .gold_bx_bodyr{
+    width: 290px;
+    height: auto;
+    float: right;
+    margin-top:98px;
+}
+#gold_bx_body .gold_bx_bodyr  .gold_bx_bodyr_top{
+    width: 288px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+#gold_bx_body .gold_bx_bodyr  .gold_bx_bodyr_top2{
+    margin-top: 25px;
+}
+#gold_bx_body .gold_bx_bodyr  .gold_bx_bodyr_top .bx_ret{
+    width: 263px;
+    height: 35px;
+    line-height: 35px;
+    background-image: url(../images/repeat_title.png);
+    color: #7a7a7a;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+#gold_bx_body .gold_bx_bodyr  .gold_bx_bodyr_top ul li{
+    color: #a3a3a3;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    list-style: disc;
+}

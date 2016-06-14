@@ -1,0 +1,113 @@
+﻿#liu_body{
+     
+     top: 164px;
+     width: 1100px;
+     height: 800px;
+     background-color: #fff;
+     margin:0 auto;
+ }
+#liu_body .liu_bodyl{
+    float: left;
+    width: 285px;
+    height: 683px;
+    background-color: #fff;
+    padding-top: 50px;
+    margin:0 auto;
+    border-bottom: 6px solid #c5cfad;
+}
+#liu_body .liu_bodyl img.img2{
+    margin-top: -12px;
+}
+#liu_body .liu_bodyr
+{
+    float:left;
+    padding-top: 44px;
+    padding-left: 25px;
+    width: 758px;
+    height: 689px;
+    background-color: #fff;
+    border-bottom: 6px solid #c5cfad;
+    overflow: hidden;
+    display:inline;
+}
+#liu_body .liu_bodyr img{
+    border-top: 1px solid #ccc;
+}
+#liu_body .liu_bodyr .liu_bodyr_d {
+    font-size: 14px;
+    color: #535353;
+    height: auto;
+    margin: 0 auto;
+    width: 758px;
+    height: 510px;
+    background-color: #fff;
+    padding-top: 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.jz
+{
+margin:0 auto;width:610px;
+    }
+#liu_body .liu_bodyr .liu_bodyr_d  .niu{
+    height: 25px;
+    width: 400px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+#liu_body .liu_bodyr .liu_bodyr_d  .nb{
+    width: 400px;
+    height: 25px;
+    display: block;
+    position: relative;
+}
+#liu_body .liu_bodyr .liu_bodyr_d  .nb p.hh{
+   position: absolute;
+    left: 90px;
+    top: 0;
+}
+#liu_body .liu_bodyr .liu_bodyr_d  .nb p.hn{
+    position: absolute;
+    left:120px;
+    top: 0;
+}
+#liu_body .liu_bodyr .liu_bodyr_d  .nb p.hn{
+    margin-left: 20px;
+}
+#liu_body .liu_bodyr .liu_bodyr_d  textarea{
+    height: 200px;
+    width: 400px;
+    margin-bottom: 15px;
+    color: #777777;
+    font-size: 12px;
+}
+#liu_body .liu_bodyr .liu_bodyr_d  span em{
+    float: left;
+    font-style: normal;
+}
+.emss
+{
+    text-align:right;
+    width:60px;
+    }
+.retop
+{
+    margin-top:-10px;
+    }
+#liu_body .liu_bodyr .liu_bodyr_d  .button{
+    width: 60px;
+    height: 30px;
+    float:left;
+    background-color: #68b10b;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    outline: none;
+    blr:expression(this.onFocus=this.blur());
+    font-weight: bold;
+    color: #000;
+}
+#liu_body .liu_bodyr .liu_bodyr_d  .bt2{
+
+    margin-left: 20px;
+}

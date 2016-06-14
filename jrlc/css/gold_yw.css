@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    blr:expression(this.onFocus=this.blur());
+}
+a{
+    text-decoration: none;
+    outline: none;
+    blr:expression(this.onFocus=this.blur());
+    color: #000;
+}
+li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    outline: none;
+    border: none;
+
+}
+#yw{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#yw .yw_head{
+    width: 1100px;
+    height: 82px;
+    background-color: #e1edff;
+    position: relative;
+}
+#yw .yw_head .yw_form{
+    width: 500px;
+    height: 400px;
+    background-color: #e5e5e5;
+    position: absolute;
+    z-index: 666666666666666666;
+    left: 507px;
+    top: 60px;
+    color: #595959;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+}
+#yw .yw_head .yw_form ul li.form1{
+    height: 200px;
+    z-index: 55555556;
+    border-bottom: none;
+}
+#yw .yw_head .yw_form ul li.yw_ae{
+    padding-left: 400px;
+    width: 100px;
+    vertical-align: 20%;
+    border: none;
+}
+#yw .yw_head .yw_form ul li.yw_ae span{
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    color: red;
+    background-color:#7e7e7e;
+    font-weight: bold;
+    cursor: pointer;
+}
+#yw .yw_head .yw_form ul li.yw_ab input{
+    width: 100px;
+    height: 35px;
+    background-color: #abcdef;
+    color: #696969;
+    cursor: pointer;
+}
+#yw .yw_head .yw_form ul li.form2 input{
+    width: 400px;
+    height: 40px;
+}
+#yw .yw_head .yw_form ul li.form1 h3{
+    padding-left: 30px;
+    background-image: url(../images/yw_icons.gif);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+#yw .yw_head .yw_form ul li.form1 textarea{
+    width: 472px;
+    height: 135px;
+    resize: none;
+}
+#yw .yw_head .yw_form ul li{
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    border-top: none;
+}
+#yw .yw_head h2{
+    height: 82px;
+    line-height: 82px;
+    padding-left: 15px;
+    float: left;
+    color: #000;
+}
+#yw .yw_head .yw_sou{
+    height: 36px;
+    width: 420px;
+    float: left;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #8b8b8b;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+#yw .yw_head span{
+    margin-left: 30px;
+    margin-top: 22px;
+    display: block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    background-color: #f5f9ff;
+    padding-left: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#yw .yw_head span:hover{
+    color: #fe3924;
+}
+#yw .yw_head span em{
+    font-style:normal ;
+    color: blue;
+}
+#yw .yw_head .but1{
+    width: 90px;
+   padding-left: 0;
+    color: #808080;
+
+}
+.soubtn
+{
+    background-color:#f5f9ff;
+    width:90px;
+    height:36px;
+    line-height:36px;
+    cursor:pointer;
+    }
+#yw .yw_head .but2{
+    margin-left: 173px;
+}
+#yw .yw_head .but1 img{
+   margin-left: 10px;
+}
+#yw .yw_head strong{
+    height: 82px;
+    line-height: 82px;
+    color: #939393;
+    font-size: 14px;
+    margin-left: 8px;
+}
+#yw .yw_body{
+    width: 1100px;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+}
+#yw .yw_body .yw_bodyl{
+    width: 760px;
+    height: auto;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+#yw .yw_body .yw_bodyl h4{
+    margin-top: 20px;
+}
+#yw .yw_body .yw_bodyl h4 em{
+    font-style: normal;
+    font-size: 14px;
+    color: #969696;
+}
+#yw .yw_body .yw_bodyl span{
+    font-size: 15px;
+}
+#yw .yw_body .yw_bodyl dl{
+    width: 700px;
+    padding-left: 80px;
+}
+#yw .yw_body .yw_bodyl dl dt{
+    font-weight: bold;
+    font-size: 15px;
+}
+#yw .yw_body .yw_bodyl dl dd{
+    color: #979797;
+}
+#yw .yw_body .yw_bodyr{
+    width: 276px;
+    height: 500px;
+    float: right;
+    border: 1px solid #ccc;
+    border-left: none;
+    padding: 10px;
+    color: #a7a7a7;
+}
+#yw .yw_body .yw_bodyr h3{
+   margin-top: 40px;
+}
+#yw .yw_body .yw_bodyr .yw_wq li{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-size: 13px;
+}
+#yw .yw_body .yw_bodyr .yw_cha{
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#yw .yw_body .yw_bodyr .yw_cha li{
+    list-style: disc;
+    font-size: 15px;
+    margin-left: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+#yw .yw_body .yw_bodyr .yw_vf{
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    clear: both;
+}
+#yw .yw_body .yw_bodyr .yw_wq{
+    margin-bottom: 30px;
+}
+#yw .yw_body .yw_bodyr .yw_wq li
+{
+    margin-right: 30px;
+    
+}

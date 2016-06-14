@@ -1,0 +1,304 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    blr:expression(this.onFocus=this.blur());
+    color: #000;
+}
+li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    outline: none;
+    border: none;
+}
+#gold_xq_xq_body{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#gold_xq_xq_body .gold_xq_xq_bodyd{
+    width: 1100px;
+    height: auto;
+    background-color: #fff;
+    margin-top: 20px;
+    float: left;
+}
+#tz{
+    width: 800px;
+    height: auto;
+    background-color: #fefefe;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    float: left;
+}
+#tz .tz_ban{
+    width: 832px;
+    height: 40px;
+    background-image: url(../images/indexList_bg.jpg);
+}
+#tz .tz_ban p{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    width: 135px;
+    background-color: #ceac5f;
+    margin-left: 10px;
+    font-size: 20px;
+    float: left;
+    margin-right: 30px;
+}
+#tz .tz_ban span{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #4b4b4b;
+    display: block;
+    margin-right: 30px;
+}
+#tz .tz_ban em{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f00000;
+    float: left;
+}
+#tz .tz_ban strong{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-right: 30px;
+    margin-top: 5px;
+    color: #424242;
+    cursor: pointer;
+}
+#tz .tz_ban strong:hover{
+    color: #f00000;
+}
+#tz ul{
+    width: 800px;
+    height: auto;
+}
+#tz ul li{
+    cursor: pointer;
+}
+#tz ul li:hover{
+    background-color: #fff4dc;
+    font-size: 17px;
+}
+#tz ul li.xm{
+    background-color: #ceac5f;
+    position: relative;
+}
+#tz ul li.xm span{
+    position: absolute;
+    display: block;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    height: 39px;
+    line-height: 39px;
+}
+#tz ul li.xm .cam1{
+    left: 30px;
+}
+#tz ul li.xm .cam2{
+    left: 218px;
+}
+#tz ul li.xm .cam3{
+    left:320px;
+}
+#tz ul li.xm .cam4{
+    left:425px;
+}
+#tz ul li.xm .cam5{
+    left: 525px;
+}
+#tz ul li.xm .cam6{
+    left: 738px;
+}
+#tz ul li.xm .cam7{
+    left: 640px;
+}
+#tz ul li{
+    width: 800px;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-top:none ;
+    line-height: 45px;
+    padding-left: 30px;
+    color: #646464;
+    font-size: 14px;
+}
+#tz ul li .mm{
+    display: inline-block;
+    font-size: 14px;
+}
+#tz ul li .nm1{
+    cursor: pointer;
+    color: #646464;
+    font-size: 13px;
+    font-weight: bold;
+    width: 185px;
+}
+#tz ul li .nm1:hover{
+    color: #d86639;
+}
+#tz ul li .nm2{
+     width: 125px;
+    color: red;
+}
+#tz ul li .nm3{
+    width: 80px;
+}
+#tz ul li .nm4{
+    width: 95px;
+}#tz ul li .nm5{
+     width: 130px;
+ }#tz ul li .nm6{
+       width: 95px;
+       height:43px;
+       color:White;
+      font-weight:bold;
+      text-align:center;
+      background-color:#ff6600;
+  }#tz ul li .nm8{
+       width: 70px;
+  }
+.rexiao
+{
+    color:Red;
+    font-weight:bold;
+    }
+#tz ul .ji{
+    background-color: #fefefe;
+}
+#tz ul .ou{
+    background-color: #f0f0f0;
+}
+
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba{
+    width: 260px;
+    height: auto;
+    float: right;
+    border: 1px solid #ccc;
+}
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tzjs{
+    height: 35px;
+    line-height: 35px;
+    width: 230px;
+    background-color: #ceac5f;
+    color: #fff;
+    padding-left: 30px;
+}
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .ts{
+    margin-top: 30px;
+}
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_yhu{
+    padding: 20px;
+}
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_yhu a li:hover
+{
+    color:Red;
+    }
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_jj_dz
+{
+    width:220px;
+    height:160px;
+    margin-top:20px;
+    position:relative;
+    color:red;
+    font-size:13px;
+    overflow:hidden;
+    }
+    
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_jj_dz .ddl
+{
+    position:absolute;
+    top:0;
+    } 
+    
+     #gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_jj_dz dl
+     {
+             width:220px;
+              height:200px;
+         }
+ #gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_jj_dz dl dd
+ {
+     height:50px;
+     font-weight:bold;
+     } 
+     
+      #gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_jj_dz dl dd .gui
+      {
+          width:150px;
+          height:auto;
+          display:block;
+          float:right;
+          height:50px;
+          overflow:hidden;
+          }  
+       
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_biaoyu{
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+#gold_xq_xq_body .gold_xq_xq_bodyd .zha_ba .tz_hy .tz_biaoyu{
+    list-style: disc;
+    margin-left: 30px;
+    color: #898989;
+}
+
+
+.pagination {
+                text-align: right;
+                padding: 20px 0 5px 0;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                }
+.pagination a {
+                margin: 0 5px 0 0;
+                padding: 3px 6px;
+                }
+.pagination a.number {
+				border: 1px solid #ddd;
+                }
+
+.pagination a.current {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                }
+.pagination span.current {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                 margin: 0 5px 0 0;
+                padding: 3px 6px;
+                }
+.fyccurrent {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                }
+.pagination a.current:hover {
+				text-decoration: underline;
+                }

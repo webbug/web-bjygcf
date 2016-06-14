@@ -1,0 +1,264 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="jrlc_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html style="font-family:Microsoft JhengHei">
+<head runat="server">
+    <title>北京一格财富投资咨询有限公司—投资部</title>
+    <meta name="keywords" content="bjygcf.com,www.bjygcf.com,一格理财,一格旅游,金融投资,融资,信托,证券基金,有限合伙,三方理财,信用卡,无抵押贷款,人寿保险,财产保险,国内外旅游,酒店,机票,一格财富" />
+    <meta name="description" content=" 北京一格财富投资咨询有限公司是一家以提供第三方服务为主的专业咨询机构。公司目前开展的主要业务包括个人（家庭）投资理财、企业金融和休闲旅游等方面的第三方服务。 " />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" >
+    <link rel="icon" href="images/favicon.ico" mce_href="images/favicon.ico" type="image/x-icon"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <link rel="stylesheet" type="text/css" href="css/gold.css" />
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="../jrlc/js/demo.js"></script>
+     <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=DE84ef52718b953df3b628be2059fcaa"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style=" position:relative;background-image:url(images/bbg.png);">
+          <div style="width:100%;height:20px;background-image:url(images/lun_hed2.png);"></div> 
+          <img id="xuan1" style="position:absolute;right:0;top:0;z-index:-1;" src="images/xuan_bg1.png" />
+           <img id="Img1" style="position:absolute;left:0;top:0;z-index:-1;" src="images/xuan_bg2.png" />
+          <a href="http://www.bjygcf.com/jrlc/jr_index.aspx"><div title="点击我!进入金融理财页...." id="rukou2" style="position:absolute;left:0; top:375px;z-index:999999999999999;width:46px;height:60px;background-image:url(images/header-panesl-bg2.png);border-top-right-radius:10px;border-bottom-right-radius:10px;">
+        <h1 style="color:#fff;text-align:center;line-height:60px;cursor:pointer;"><span style="display:none;margin-left:-20px;">金融理财<img style="margin-left:10px;" src="images/jian_jj.png" /></span><img class="ionc" style="margin-left:10px;line-height:60px;position:absolute;right:10px;top:15px;" src="images/tukou_2.png"></h1>
+    </div></a>  
+       <a href="http://www.bjygcf.com/swly/ly_index.aspx"><div title="点击我!进入商务休闲页...." id="rukou" style="position:absolute;left:0; top:295px;z-index:999999999999999;width:46px;height:60px;background-image:url(images/header-panesl-bg2.png);border-top-right-radius:10px;border-bottom-right-radius:10px;">
+        <h1 style="color:#fff;text-align:center;line-height:60px;cursor:pointer;"><span style="display:none;margin-left:-20px;">商务旅游<img style="margin-left:10px;" src="images/jian_jj.png" /></span><img class="ionc" style="margin-left:10px;line-height:60px;position:absolute;right:10px;top:15px;" src="images/tukou_1.png"></h1>
+    </div></a>     
+    <script>
+        jQuery('#rukou').hover(function () {
+            jQuery('#rukou span').show();
+            jQuery('#rukou h1 .ionc').fadeOut('fast');
+            jQuery(this).stop().animate({
+                width: '230px'
+            }, 100, 'linear').animate({
+                width: '210px'
+            }, 100, 'linear').animate({
+                width: '220px'
+            }, 100, 'linear');
+        }, function () {
+            jQuery('#rukou span').hide();
+            jQuery('#rukou h1 .ionc').fadeIn('fast');
+            jQuery(this).stop().animate({
+                width: '40px'
+            }, 100, 'linear').animate({
+                width: '52px'
+            }, 100, 'linear').animate({
+                width: '46px'
+            }, 100, 'linear');
+        });
+        jQuery('#rukou2').hover(function () {
+            jQuery('#rukou2 span').show();
+            jQuery('#rukou2 h1 .ionc').fadeOut('fast');
+            jQuery(this).stop().animate({
+                width: '230px'
+            }, 100, 'linear').animate({
+                width: '210px'
+            }, 100, 'linear').animate({
+                width: '220px'
+            }, 100, 'linear');
+        }, function () {
+            jQuery('#rukou2 span').hide();
+            jQuery('#rukou2 h1 .ionc').fadeIn('fast');
+            jQuery(this).stop().animate({
+                width: '40px'
+            }, 100, 'linear').animate({
+                width: '52px'
+            }, 100, 'linear').animate({
+                width: '46px'
+            }, 100, 'linear');
+        });
+        jQuery(window).bind('scroll', function () {
+            jQuery('#rukou').css({
+                top: (295 + getScroll().top) + 'px'
+            });
+            jQuery('#rukou2').css({
+                top: (375 + getScroll().top) + 'px'
+            });
+        });
+    </script>
+    <div id="share">
+        <h2>
+            一格客服中心:</h2>
+        <ul>
+            <li class="ii1"><a href="###" class="a biao">业务热线:</a></li>
+            <li class="ii2"><a href="###" class="b">010-52746846</a></li>
+            <li class="ii3"><a href="###" class="c biao">公司热线:</a></li>
+            <li class="ii4"><a href="###" class="d">010-53689251</a></li>
+            <li class="ii5"><a href="###" class="e biao">招聘热线:</a></li>
+            <li class="ii6"><a href="###" class="f">010-53600170</a></li>
+            <li class="ii7"><a href="###" class="g biao">电子邮件:</a></li>
+            <li class="ii8"><a href="###" class="h">bjygcf@bjgycf.com</a></li>
+            <li class="ii9"><a href="###" class="i biao">ＱＱ客服:</a></li>
+            <li class="ii10"><a href="http://wpa.qq.com/msgrd?v=3&uin=2713302485&site=qq&menu=yes" target="_blank"
+                class="j">点击交谈</a></li>
+            <li class="ii11"><a href="###" class="k biao">网站客服:</a></li>
+            <li class="ii12"><a onclick="javascript:mpnchat.util.openChat();return false;" href="javascript:void(0)"
+                title="在线咨询" style="cursor: hand;" class="l">点击交谈</a></li>
+            <li class="ii13"><a href="###" class="m biao">公司官网:</a></li>
+            <li class="ii14"><a href="http://www.bjygcf.com" class="n" style="background: none">www.bjygcf.com</a></li>
+            <li class="ii15"><a href="###" class="o biao">关注微信</a></li>
+            <li class="ii16"><a href="###" class="p" style="background: none">yigecaifu</a></li>
+        </ul>
+        <div class="share_footer">
+            <span></span>
+        </div>
+    </div>
+    <form id="form1" runat="server">
+
+
+
+     
+   
+
+
+    <div style="clear:both;">
+
+
+
+      <ul id="hul_1">
+              <li class="hul_li4"><a href="../about/ab_index.aspx"><button type="button">关于一格</button></a></li>
+              <li><a href="../swly/ly_index.aspx"><button type="button">商务旅游</button></a></li>
+              <li><a href="jr_index.aspx"><button type="button">金融理财</button></a></li>
+              <li class="hul_li1"><a href="jr_index.aspx"><button type="button"><img src="images/icon_home.gif" /> 网站首页</button></a></li>
+               
+              
+              
+          </ul>
+
+          <style>
+ #hul_1{
+    width:98%;
+    height:30px;
+    padding-top:10px;
+}
+#hul_1 li{
+    float: right;
+    border-right: 1px solid #a7a7a7;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    cursor:pointer;
+    
+}
+#hul_1 li button
+{
+        cursor:pointer;
+        height:25px;
+        width:auto;
+    }
+#hul_1 li.hul_li4{
+    border-right: none;
+}
+          </style>
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <div id="head" style="position:relative;">
+            <a href="#head"><div id="hui" style="display:none;color:#7c7c7c;text-align:center;position:absolute;right:-40px;top:500px;width:20px;height:80px;border:1px solid #ccc;border-radius:5px;background-color:#fff;">▲回顶部</div></a>           
+            <script>
+                  var iner=getInner().height-110;
+                  jQuery(window).bind('scroll', function () {
+                      jQuery('#hui').show().css({
+                          top: iner + getScroll().top - 80
+                      });
+                      if (getScroll().top == 0) {
+                          jQuery('#hui').hide();
+                      }
+                  });
+                jQuery('#hui').hover(function () {
+                    jQuery(this).css({
+                       backgroundColor:'#fff0c0',
+                       color:'#e4393c'
+                    });
+                }, function () {
+                    jQuery(this).css({
+                        backgroundColor: '#fff',
+                        color: '#7c7c7c'
+                    });
+                });
+            </script>
+          <a href="http://www.bjygcf.com"><img class="head_img" src="images/yige_logo.png" /><span style="height:30px;width:1px;background-color:#e8e8e8;position:absolute;left:210px;top:36px;"></span></a>
+         
+          <ul class="hul_2">
+             <a href="jr_tzxm.aspx"><li class="hul_2_li"><p>理财产品</p></li></a>
+              <a href="jr_bx.aspx"><li class="hul_2_li"><p>保险超市</p></li></a>
+              <a href="jr_zx.aspx"><li class="hul_2_li"><p>金融咨询</p></li></a>
+              <a href="jr_glv.aspx"><li class="hul_2_li"><p>金融攻略</p></li></a>
+              <a href="../swly/ly_index.aspx"><li class="hul_2_li"><p>商务旅游</p></li></a>
+              <a href="jr_wd.aspx"><li class="hul_2_li"><p>有问必答</p></li></a>
+                <a href="###"><li id="yhyw">
+                    <p>银行业务</p>
+                   <ul id="lifu">
+                      <dd onclick="javascript:window.location.href='jr_dai.aspx';">贷　款</dd>
+                      <dd onclick="javascript:window.location.href='jr_xyk.aspx';">信用卡</dd>
+                   </ul>
+                </li></a>
+          </ul>
+          <div class="tel">
+              <img style="height:20px;margin-top:6px;margin-right:4px;" src="images/icon_tel.gif" /><h2>010-52746846</h2>
+          </div>
+   
+      </div>
+        </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+        <div id="gold_foot">
+           <div class="foot_v">
+                <img src="images/yige_logo.png" />
+                <ul>
+                     <a href="../about/ab_rlzy.aspx?rlzy=2"><li>人才招聘</li></a>
+                     <a href="../about/ab_news.aspx"><li>新闻中心</li></a>
+                     <a href="../about/wzmap.aspx"><li>网站地图</li></a>
+                     <a href="../about/ab_index.aspx"><li>关于一格</li></a>
+                </ul>
+              <span>
+                <p>版权所有 © 北京一格财富投资咨询有限公司</p>
+                <p>ICP许可证号 京ICP备13030029号-1</p>
+              </span>
+           </div>
+     </div>
+        <script>
+            jQuery(window).bind('scroll', function () {
+                jQuery('#gold_foot').css({
+                    width: getScroll().left + getInner().width - 20
+                });
+            });
+        </script>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <script type="text/javascript">
+        jQuery('#yhyw').hover(function () {
+            jQuery('#lifu').slideDown();
+        }, function () {
+            jQuery('#lifu').stop().slideUp();
+        });
+        jQuery('#lifu').hover(function () {
+            jQuery(this).stop().css({
+                height: '108px'
+            });
+        }, function () {
+            jQuery(this).slideUp();
+        });
+    </script>
+    <script type="text/javascript" src="http://stat.mpnco.com.cn/stat/a.ashx?s=js7M8jaU~oKlSvhyhDpDWganVzWwNOzBVJT0P6J5IYHFW6ZPXbkLQRRRC0mTnG~s&c=js7M8jaU~oKlSvhyhDpDWganVzWwNOzBVJT0P6J5IYHFW6ZPXbkLQRRRC0mTnG~s"></script>
+     <div id="share_gai" position:relative;>
+         <img style="margin-top:60px;margin-left:1px;filter:alpha(opacity=100);opacity:1;float:left" src="images/share.png" />
+        <div style="position:absolute;right:0;top:0;width:300px;height:280px;float:right;display:inline;background-color:#fff;opacity:0;filter:alpha(opacity=0);">
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=2713302485&site=qq&menu=yes" title="QQ咨询" target="_blank"
+                class="j"><h3 style="position:absolute;top:150px;background-color:Green;z-index:666;cursor:pointer;opacity:0;filter:alpha(opacity=0);"></h3></a>
+         <a onclick="javascript:mpnchat.util.openChat();return false;" href="javascript:void(0)"
+                title="在线咨询" style="cursor: hand;" class="l"><h3 style="position:absolute;top:180px;z-index:666;background-color:pink;cursor:pointer;opacity:0;filter:alpha(opacity=0);"></h3></a>
+        </div>   
+      </div>
+</body>
+</html>

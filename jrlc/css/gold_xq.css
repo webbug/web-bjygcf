@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    blr:expression(this.onFocus=this.blur());
+    color: #000;
+}
+li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    outline: none;
+    border: none;
+}
+#gold_xq_head{
+    width: 1100px;
+    height: 370px;
+    margin: 0 auto 20px auto;
+}
+#gold_xq_head h5{
+    width: 1100px;
+    color: #5f5f5f;
+    margin-bottom: 15px;
+}
+#gold_xq_head .gold_xqh_but{
+    width: 1100px;
+    height: 356px;
+}
+#gold_xq_head .gold_xqh_butl{
+    float: left;
+    width: 780px;
+    height: 355px;
+    border: 1px solid #ccc;
+}
+#gold_xq_head .gold_xqh_butl .gxb_title{
+    width: 780px;
+    height: 42px;
+    background-image: url(../images/titleBg.gif);
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+#gold_xq_head .gold_xqh_butl .gxb_title h3{
+    color: #fff;
+}
+#gold_xq_head .gold_xqh_butl .gxb_title .h31{
+    float: left;
+    margin-left: 39px;
+    margin-top: 9px;
+}
+#gold_xq_head .gold_xqh_butl .gxb_title .h32{
+    float: right;
+    width: 115px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #dec171;
+    text-align: center;
+    margin-top: 11px;
+    margin-right: 10px;
+    color:Red;
+    font-size:22px;
+    font-weight:900;
+}
+#gold_xq_head .gold_xqh_butl h2{
+    margin-left: 20px;
+    width: 740px;
+    float: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e8e8e8;
+
+}
+#gold_xq_head .gold_xqh_butl ul li.gli1{
+    margin-left: 25px;
+}
+#gold_xq_head .gold_xqh_butl ul li{
+    width: 242px;
+    height: 53px;
+    float: left;
+    padding: 10px 0 10px 0;
+    line-height: 53px;
+    color: #515151;
+    border-bottom: 1px solid #ececec;
+    font-size: 15px;
+}
+#gold_xq_head .gold_xqh_butl ul .gli2{
+    height: 110px;
+}
+#gold_xq_head .gold_xqh_butl ul li span{
+    color: #fe6d07;
+    padding-left: 5px;
+}
+#gold_xq_head .gold_xqh_butl ul  .rz{
+    font-size: 19px;
+    font-weight: bold;
+}
+#gold_xq_head .gold_xqh_butl ul li a{
+    display: block;
+    width: 147px;
+    height: 46px;
+    background-color: #d86639;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 55px;
+}
+#gold_xq_head .gold_xqh_butl ul li a:hover{
+    color: #ffff00;
+}
+#gold_xq_head .gold_xqh_butl .foot_gg{
+    display: block;
+    width: 740px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25px;
+    text-align: center;
+    font-style: normal;
+    color: #737373;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#gold_xq_head .gold_xqh_butr{
+    float: right;
+    width: 300px;
+    height: 355px;
+    border: 1px solid #ccc;
+}
+#gold_xq_head .gold_xqh_butr h3{
+    width: 285px;
+    height: 42px;
+    line-height: 47px;
+    color: #fff;
+    padding-left: 15px;
+    background-color: red;
+    background-image: url(../images/titleBg.gif);
+    background-position: right center;
+    margin-bottom: 30px;
+}
+#gold_xq_head .gold_xqh_butr img{
+    margin-left: 75px;
+
+}
+#gold_xq_head .gold_xqh_butr span{
+    display: block;
+    width: 280px;
+    height: 50px;
+    font-size: 14px;
+    color: #d86639;
+    font-weight: bold;
+    padding: 10px;
+    text-indent: 30px;
+    overflow: hidden;
+}
+#gold_xq_head .gold_xqh_butr p{
+    text-align: center;
+    color: #888888;
+    font-size: 12px;
+}
+#gold_xq_body{
+    width: 1100px;
+    height: 1000px;
+    margin: 35px auto 0 auto;
+}
+#gold_xq_body .gold_xq_bodyl{
+    float: left;
+    width: 780px;
+    height: auto;
+    border: 1px solid #ccc;
+    overflow:hidden;
+}
+#gold_xq_body .gold_xq_bodyl span{
+    display: block;
+    width: 780px;
+    height: 35px;
+    border-bottom: 3px solid #d86639;
+}
+#gold_xq_body .gold_xq_bodyl span h3{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #d86639;
+    margin-bottom: 15px;
+}
+#gold_xq_body .gold_xq_bodyr{
+    width: 298px;
+    height: 280px;
+    float: right;
+    border: 1px solid #ccc;
+}
+#gold_xq_body .gold_xq_bodyr h3{
+    width: 285px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 13px;
+    background-color: #ceac5f;
+    color: #fff;
+    margin-bottom: 25px;
+}
+#gold_xq_body .gold_xq_bodyr ul li{
+    width: 298px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    color: #545454;
+    cursor: pointer;
+}
+#gold_xq_body .gold_xq_bodyr ul li:hover{
+    color: #d86639;
+}

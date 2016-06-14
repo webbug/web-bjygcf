@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    blr:expression(this.onFocus=this.blur());
+}
+li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    outline: none;
+    border: none;
+}
+#gold_gong_xq{
+    width: 1098px;
+    height: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+#gold_gong_xq .gold_gong_xql{
+    width: 180px;
+     height: auto;
+    float: left;
+}
+#gold_gong_xq .gold_gong_xql h2{
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+    background-color: #3598ed;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #fff;
+}
+#gold_gong_xq .gold_gong_xql img{
+    margin-left: 25px;
+}
+#gold_gong_xq .gold_gong_xql p{
+    color: #aaaaaa;
+    font-size: 12px;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+#gold_gong_xq .gold_gong_xql h3{
+    height: 25px;
+    line-height: 25px;
+    background-color: #ac20dc;
+    width: 120px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 22px;
+    margin-bottom: 25px;
+}
+#gold_gong_xq .gold_gong_xql ul li{
+    font-size: 13px;
+    color: #989898;
+    padding-left: 15px;
+    height: auto;
+    line-height: 20px;
+}
+#gold_gong_xq .gold_gong_xqr{
+    float: right;
+    padding: 25px;
+    width: 850px;
+    height: auto;
+    text-indent: 50px;
+}

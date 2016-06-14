@@ -1,0 +1,131 @@
+﻿ .xc{
+    height: 4220px;
+    width: 885px;
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fffaf4;
+}
+  .xc .xc_zhend{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 885px;
+}
+ .xc .xc_d{
+    width: 868px;
+    height: 2300px;
+    padding-top: 70px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+}
+ .xc .xc_d ul li h3 em{
+    font-style: normal;
+    font-size: 30px;
+
+}
+ .xc .xc_d ul li h3{
+    float: left;
+    color: #0166fe;
+}
+ .xc .xc_d ul li{
+    width: 700px;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+ .xc .xc_d ul li span{
+    display: block;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding-left: 30px;
+    color: #0166fe;
+}
+ .xc .xc_d ul li.xc_li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: #121212;
+    border-bottom: 1px dashed #ccc;
+}
+ .xc .xc_d ul li.xc_li1{
+    padding-left: 80px;
+}
+ .xc .xc_d ul li div{
+     height: 40px;
+     width: 688px;
+     border: 1px solid #abcdef;
+    padding-top: 13px;
+    padding-bottom: 29px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .xc .xc_d ul li div h4{
+    float: left;
+}
+ .xc .xc_d ul li.li_img{
+    width: 636px;
+    background-color: #808080;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-left: 80px;
+    border: 1px solid #abcdef;
+}
+ .xc .xc_d ul li dl{
+    float: left;
+}
+ .xc .xc_d ul li dl dd img{
+    margin-left: 13px;
+}
+ .xc .xc_d ul li dl dt{
+    text-align: center;
+}
+ .xc  .xc_jf{
+    width: 883px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+ .xc  .xc_jf .xc_jf_head{
+    width: 883px;
+    height: 42px;
+    background-image: url(../images/jf_head_bg.png);
+}
+ .xc  .xc_jf .xc_jf_head h2{
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    padding-left: 20px;
+}
+ .xc  .xc_jf p{
+    width: 800px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #f9f4ee;
+}
+ .xc  .xc_jf ul{
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+ .xc  .xc_jf ul li{
+    height: 30px;
+    padding-top: 3px;
+    font-size: 14px;
+}
+ .xc  .xc_cant{
+    height: 600px;
+}
+ .xc  .xc_cant ul li{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

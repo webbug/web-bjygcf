@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    blr:expression(this.onFocus=this.blur());
+}
+li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    outline: none;
+    border: none;
+}
+#bf{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+#gbody{
+    width: 1100px;
+    height: auto;
+    background-color: #fff;
+    float: left;
+}
+#gbody .rb_lun{
+    width:275px;
+    height: 220px;
+    position: relative;
+    /*overflow: hidden;*/
+    border-bottom: 1px solid #ccc;
+}
+#gbody .rb_lun .lun_dian{
+    position: absolute;
+    top:180px;
+    left:90px;
+    z-index:5;
+}
+#gbody .rb_lun span{
+    width:275px;
+    height:272px;
+    background: #333;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 3;
+    top:260px;
+    left: 125px;
+}
+#gbody .rb_lun .lun_dian li{
+    float: left;
+    padding:0 10px;
+    font-size: 12px;
+    color:#999;
+    cursor: pointer;
+}
+
+#gbody .rb_lun_img li img{
+    position: absolute;
+    left:0;
+    top:15px;
+    z-index: 1;
+    display: block;
+}
+#gbody .rb_lun .jpzn{
+    position: absolute;
+    z-index: 8;
+    left: 110px;
+    top: 15px;
+    width: 120px;
+    height: 130px;
+    background-color: #ececec;
+    padding: 5px 0;
+}
+#gbody .rb_lun .jpzn ul li{
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #3b3b3b;
+}
+#grb_lun{
+    width:1100px;
+    height: 320px;
+    position: relative;
+    background-color: #fff;
+    /*overflow: hidden;*/
+}
+#grb_lun #lun_dian{
+    position: absolute;
+    top:283px;
+    left:456px;
+    z-index:5;
+}
+#grb_lun span
+{
+    display:block;
+    width:1100px;
+    height:30px;
+    background: #000;
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    position: absolute;
+    z-index: 3;
+    top:278px;
+    left: 0;
+}
+#grb_lun #lun_dian li{
+    float: left;
+    padding:0 10px;
+    font-size: 16px;
+    color:#999;
+    cursor: pointer;
+}
+#grb_lun strong{
+    position: absolute;
+    z-index: 4;
+    top:271px;
+    left: 10px;
+    color: #fff;
+}
+
+#grb_lun_img li img{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 1;
+    display: block;
+}
+#gbody .gbody_down{
+    width: 1100px;
+    height: auto;
+    background-color: #fff;
+}
+#gbody .gbody_down .gbody_downl{
+    float: right;
+    width: 275px;
+    height: auto;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top{
+    width: 263px;
+    height: 598px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top h3{
+    color: #2e2e2e;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top ul{
+    width: 273px;
+    height: 300px;
+    margin-top: 10px;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top ul li{
+    width: 200px;
+    padding-left: 60px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px dashed #ccc;
+    background-image: url(../images/index-ico.png);
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: #333333;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top img{
+    margin-left: 30px;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top ul li.vf{
+
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top ul li.gf1{
+    background-position:  20px 25px;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top ul li.gf2{
+    background-position:  20px -24px;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top ul li.gf3{
+    background-position:  20px -71px;
+}
+#gbody .gbody_down .gbody_downl .gbody_downl_top ul li.gf4{
+    background-position:  20px -118px;
+}
+#gbody .gbody_down .gbody_downl .gbody_re{
+    width: 275px;
+    height: auto;
+    margin-top: 20px;
+}
+#gbody .gbody_down .gbody_downl .gbody_re .gb_re1{
+    width: 275px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+#gbody .gbody_down .gbody_downl .gbody_re .gb_re1 h3{
+    border-bottom: 1px solid #ccc;
+}
+#gbody .gbody_down .gbody_downl .gbody_re .re_hua{
+    width: 275px;
+    height: 300px;
+    margin-top: 70px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+#gbody .gbody_down .gbody_downl .gbody_re .re_hua h4{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+#gbody .gbody_down .gbody_downl .gbody_re .re_hua ul{
+    margin-top: 15px;
+}
+#gbody .gbody_down .gbody_downl .gbody_re .re_hua ul li{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    color: #2a80ff;
+    background-image:url(../images/gongli_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-size: 16px;
+}
+#gbody .gbody_down .gbody_downr{
+    float: left;
+    width: 813px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+#gbody .gbody_down .gbody_downr .gold_xq{
+    width: 760px;
+    height: 370px;
+    margin-top: 20px;
+    margin-left: 28px;
+    cursor: pointer;
+}
+#gbody .gbody_down .gbody_downr .gold_xq h2{
+    height: 50px;
+    line-height: 50px;
+    width: 760px;
+}
+#gbody .gbody_down .gbody_downr .gold_xq h2:hover{
+    text-decoration: underline;
+}
+#gbody .gbody_down .gbody_downr .gold_xq .shuom{
+    height: 80px;
+    width: 760px;
+    display: block;
+    margin-top: 20px;
+    color: #a7a7a7;
+    font-size: 15px;
+}
+#gbody .gong_d{
+    clear: both;
+    width: 1100px;
+    height: 390px;
+    background-color: #fff;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+.pagination {
+                text-align: right;
+                padding: 20px 0 5px 0;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                }
+.pagination a {
+                margin: 0 5px 0 0;
+                padding: 3px 6px;
+                }
+.pagination a.number {
+				border: 1px solid #ddd;
+                }
+
+.pagination a.current {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                }
+.pagination span.current {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                 margin: 0 5px 0 0;
+                padding: 3px 6px;
+                }
+.fyccurrent {
+                background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border-color: #459300 !important;
+                color: #fff !important;
+                }
+.pagination a.current:hover {
+				text-decoration: underline;
+                }
